@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    highline (2.0.1)
+    pg (1.1.4)
+    sequel (5.18.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  highline
+  pg
+  sequel (>= 5.6.0)
+
+BUNDLED WITH
+   2.0.1
