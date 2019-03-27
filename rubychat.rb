@@ -7,7 +7,22 @@ class RubyChat
   class << self
     def start
       clear_screen
-      puts 'hello'
+      puts 'rubychat!'
+      menu
+      new_post
+    end
+
+    def new_post
+      filter
+      puts 'cant accept new posts right now'
+    end
+
+    def menu
+      puts 'menu under construction'
+    end
+
+    def filter
+      puts 'everything`s fine'
     end
 
     def clear_screen
