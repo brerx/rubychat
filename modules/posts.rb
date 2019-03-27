@@ -1,7 +1,7 @@
 require_relative '../models/post'
 
 module Posts
-  def self.new_post(attributes)
+  def self.create(attributes)
     %i[user message].each do |attr|
       return "Missing attribute: #{attr}" if attributes[attr].nil?
     end
